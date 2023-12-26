@@ -69,6 +69,12 @@ export const MenuItem = styled.li`
     background: linear-gradient(270deg, #264cc8 0%, #31a3fa 100%);
     box-shadow: 0px 4px 8px -4px rgba(58, 53, 65, 0.42);
   }
+  &:last-child {
+    color: ${color.white};
+    border-radius: 0px 50px 50px 0px;
+    background: linear-gradient(270deg, #264cc8 0%, #31a3fa 100%);
+    box-shadow: 0px 4px 8px -4px rgba(58, 53, 65, 0.42);
+  }
 `;
 
 export const Icon = styled.p`
